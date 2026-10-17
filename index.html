@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yeldaryn</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#181916"><meta name="description" content="ЖАР — донеры, сочные бургеры и хрустящие крылышки. Выбери свой вкус и собери заказ онлайн."><title>ЖАР — заворачиваем настроение</title>
+<link rel="stylesheet" href="style.css"><script src="app.js" defer></script>
 </head>
 <body>
-  <p>
-  <a href="about.html">Обо мне</a> |
-  <a href="contacts.html">Контакты</a>
-  </p>
-  <h1>Я Yeldaryn 👨‍💻</h1>
-  <p>Это мой личный сайт. Я изучаю создание сайтов с нуля.</p>
-  <p>Скоро здесь появится больше информации!</p>
-  <img src="myphoto.jpg" alt="My photo" width="200">
-</body>
-</html>
+<header class="header"><a class="logo" href="#" aria-label="ЖАР — главная">жар<span>●</span></a><nav aria-label="Основная навигация"><a href="#menu">Меню</a><a href="#story">Наш подход</a><a href="#faq">Вопросы</a></nav><button class="cart-toggle" aria-label="Открыть корзину">Корзина <span id="cart-count">0</span> ↗</button></header>
+<main>
+<section class="hero"><div class="hero-copy"><div class="eyebrow"><span></span> STREET FOOD. REAL GOOD.</div><h1>Всё дело<br>в <em>жаре.</em></h1><p>Горячий гриль. Сочное мясо. Тот самый соус.<br>Заворачиваем хорошее настроение в лаваш.</p><a class="button primary" href="#menu">Хочу попробовать <span>↗</span></a><div class="hero-note"><span class="little-flame">✦</span> Готовим после заказа. Всегда.</div></div><div class="hero-visual"><div class="orbit"></div><div class="food hero-food" role="img" aria-label="Поджаренный донер с сочной курицей и овощами"></div><div class="round-stamp">СОЧНО ВНУТРИ<br><b>100%</b><br>ХРУСТИТ СНАРУЖИ</div><div class="photo-caption"><span>01 / НАШ ГЛАВНЫЙ ГЕРОЙ</span><strong>Донер «Тот самый» <i>↙</i></strong></div><div class="scribble">Любовь с первого укуса</div></div><div class="hero-bottom"><span>Никаких компромиссов. Только вкус.</span><a href="#menu">Листай, будет вкусно ↓</a></div></section>
+<div class="ticker" aria-hidden="true"><div>ЗАВОРАЧИВАЕМ НАСТРОЕНИЕ <span>✦</span> ДОБАВЛЯЕМ ОГНЯ <span>✦</span> ЗАВОРАЧИВАЕМ НАСТРОЕНИЕ <span>✦</span> ДОБАВЛЯЕМ ОГНЯ <span>✦</span></div></div>
+<section id="menu" class="menu-section section"><div class="section-top"><div><div class="eyebrow">ВЫБИРАЙ СЕРДЦЕМ. И ЖЕЛУДКОМ.</div><h2>Ну что, <em>поедим?</em></h2></div><p>Любимые вкусы. Щедрые порции.<br>Сложно выбрать — легко влюбиться.</p></div><div class="menu-toolbar"><div class="filters" role="group" aria-label="Категории меню"><button class="active" data-filter="all" aria-pressed="true">Всё меню <small>06</small></button><button data-filter="doner" aria-pressed="false">Донеры</button><button data-filter="burger" aria-pressed="false">Бургеры</button><button data-filter="wings" aria-pressed="false">Крылышки</button></div><span class="menu-hint">✦ Большой вкус — в каждой детали</span></div><div id="products" class="products"></div><p class="menu-disclaimer">Демонстрационное меню. Цены указаны в ₸. Состав и наличие нужно подтвердить перед заказом.</p></section>
+<section id="story" class="story section"><div class="story-art"><span class="giant-star">✳</span><span class="story-label">БОЛЬШЕ ВКУСА.<br>МЕНЬШЕ ПРАВИЛ.</span><div class="story-mini food" role="img" aria-label="Сочный чизбургер"></div></div><div class="story-copy"><div class="eyebrow">ПРОСТО ЕДА. ПРОСТО ОЧЕНЬ ХОРОШАЯ.</div><h2>Без секретов.<br>С <em>характером.</em></h2><p>Мы придумали «ЖАР» для тех моментов, когда хочется чего-то по-настоящему вкусного. Без лишнего пафоса. С горячим грилем, хрустящими овощами и соусом, который объединяет всё.</p><div class="values"><div><span>01</span><h3>Гриль решает</h3><p>Румяная корочка и сочная начинка — идеальная пара.</p></div><div><span>02</span><h3>Твой вкус — твои правила</h3><p>Поменьше острого? Без лука? Добавь пожелание к заказу.</p></div></div></div></section>
+<section class="cta section"><span>ОСТОРОЖНО: ВЫЗЫВАЕТ АППЕТИТ</span><h2>Хороший день<br>начинается с <em>«мне донер».</em></h2><a href="#menu" class="button dark">Найти свой любимый <span>↗</span></a><div class="cta-star">✳</div></section>
+<section class="faq section" id="faq"><div><div class="eyebrow">ЕСТЬ ВОПРОСЫ?</div><h2>Разложим<br>по <em>полочкам.</em></h2></div><div class="questions"><details><summary>Как оформить заказ?<span>+</span></summary><p>Добавь блюда в корзину, укажи пожелания и получи текст заказа. Сейчас сайт работает как демонстрация: оплата и отправка в ресторан не подключены.</p></details><details><summary>Можно сделать неострым?<span>+</span></summary><p>Конечно, оставь пожелание в корзине. Перед реальным заказом уточни состав и возможность изменений у ресторана.</p></details><details><summary>А что с аллергенами?<span>+</span></summary><p>Блюда могут содержать глютен, молоко, яйца, горчицу и кунжут. Если у тебя аллергия, обязательно уточни полный состав и условия приготовления перед заказом.</p></details><details><summary>Где вы находитесь и есть ли доставка?<span>+</span></summary><p>«ЖАР» — демонстрационная концепция донерной. Адрес, часы работы, контакты и условия доставки появятся после подключения реального заведения.</p></details></div></section>
+</main>
+<footer><a href="#" class="logo">жар<span>●</span></a><p>Заворачиваем настроение.</p><a href="#menu">Наверх к вкусному ↗</a><div class="footer-bottom"><span>© <span id="year"></span> ЖАР. Концепт стритфуд-бара.</span><span>Сделано с аппетитом ✦</span></div></footer>
+<div id="cart-backdrop" class="backdrop" hidden></div><aside id="cart" class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden><div class="cart-head"><h2 id="cart-title">Твой заказ<span>●</span></h2><button id="close-cart" class="icon-button" aria-label="Закрыть корзину">✕</button></div><p class="cart-sub">Всё самое вкусное — здесь.</p><div id="cart-items"></div><div id="cart-summary"><label for="order-note">Как сделать ещё вкуснее?</label><textarea id="order-note" maxlength="500" placeholder="Например: без лука, соус отдельно"></textarea><div class="total"><span>Итого</span><strong id="cart-total">0 ₸</strong></div><p class="order-info">Демо-заказ: без оплаты и отправки в ресторан.</p><button id="prepare-order" class="button primary">Собрать заказ <span>↗</span></button></div><div id="order-result" hidden><h3>Всё готово!</h3><p>Это текст твоего заказа. Он ещё никуда не отправлен.</p><pre id="order-text"></pre><button id="copy-order" class="button primary">Скопировать заказ</button><p id="copy-status" role="status"></p></div></aside><div id="toast" class="toast" role="status"></div>
+</body></html>
